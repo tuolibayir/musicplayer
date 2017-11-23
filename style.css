@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.player{
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px 0.5px #eee;
+    cursor: default;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.set{
+    height: 200px;
+    width: 500px;
+    float: left;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    background: -webkit-linear-gradient(left top, rgb(153, 127, 247) , rgb(55, 157, 240)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(153, 127, 247) , rgb(55, 157, 240)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(153, 127, 247) , rgb(55, 157, 240)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, rgb(153, 127, 247) , rgb(55, 157, 240)); /* 标准的语法 */
+}
+.set div{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.set-info span{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.set-op{
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.set-op i{
+    cursor: pointer;
+}
