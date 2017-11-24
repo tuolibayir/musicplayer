@@ -45,6 +45,12 @@
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
+.set-progress{
+    height: 5px;
+    width: 400px;
+    background-color: rgb(148, 190, 245);
+    border-radius: 5px;
+}
 .set-op{
     color: #fff;
     font-size: 40px;
@@ -52,4 +58,7 @@
 }
 .set-op i{
     cursor: pointer;
+}
+.set-op input{
+    background-color: #5C92F3;
 }
