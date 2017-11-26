@@ -47,7 +47,7 @@
 }
 .set-progress{
     height: 5px;
-    width: 400px;
+    width: 300px;
     background-color: rgb(148, 190, 245);
     border-radius: 5px;
 }
@@ -59,6 +59,26 @@
 .set-op i{
     cursor: pointer;
 }
-.set-op input{
-    background-color: #5C92F3;
+.progress-back{
+    height: 100%;
+    width: 0%;
+    background-color: #53b4fb;
+}
+.circular{
+    height: 100%;
+    width: 10px;
+    float: right;
+    display: block;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.time{
+    float: left;
+    color: #fff;
+    margin-left: 15px;
+}
+.time-show{
+    float: right;
+    margin-right: 180px;
+    color: #fff;
 }
